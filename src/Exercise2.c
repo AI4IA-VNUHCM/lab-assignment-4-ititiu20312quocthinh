@@ -53,7 +53,18 @@ void Ex2(int arr[], int m, int n){
 	int a[SIZE][SIZE];
 	Array2Dconverter(arr,a,m,n);
 	//Your codes here
-
+int main()
+{
+    
+    int arr[5][4] = {{10, 21, 12, 53}, {64, 53, 86, 72}, {68 99 10 11}, {12, 13, 14, 15}, {16 17 18 19}};
+   
+    for(int m=0; m<5; m++)
+    {
+        for(int n=0; n<4; n++)
+        {
+            
+            printf("%4d", arr[m][n]);
+        }
 	printArray(a, m, n);
 }
 
